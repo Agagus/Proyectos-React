@@ -1,0 +1,35 @@
+.contenedorPrin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:grey;
+    /* width: 100%;
+    height: 100%; */
+    color:azure;
+    text-shadow: 1px 1px 2px violet;
+}
+.bloque{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo{
+    text-decoration: underline 1px blueviolet ;
+}
+
+.conteinerContador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid white;
+    border-style:double;
+    border-radius: 30px;
+    min-height: 80px;
+    min-width: 100px;
+    font-size: 50px;
+    color: white;
+    margin: 10px 0px;
+}
